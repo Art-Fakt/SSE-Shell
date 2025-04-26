@@ -1,4 +1,4 @@
-# SSE Reverse Shell – Enhanced Interactive Shell with Modern Features
+# SSE Reverse Shell – Enhanced Interactive Shell with stealthy connection mecanism
 
 This project showcases an advanced reverse shell built using native PowerShell and Server-Sent Events (SSE). It leverages a persistent HTTP connection to enable real-time communication between the server and clients, with a modern and interactive web-based interface for command execution and response visualization.
 
