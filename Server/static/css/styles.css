@@ -1,0 +1,122 @@
+/* Global Styles */
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    background-color: #0a1a2f; /* Dark blue marine background */
+    color: #f0f0f0; /* Light text color */
+}
+
+h1, h2 {
+    color: #ff6f61; /* Orange for titles */
+    text-shadow: 0 0 10px #ff6f61;
+}
+
+.subtitle {
+    color: #9b59b6; /* Violet subtitle */
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: -10px;
+}
+
+/* Container */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.05); /* Slightly transparent background */
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+/* Terminal Section */
+#terminal {
+    margin-top: 20px;
+    padding: 20px;
+    background: #000; /* Black terminal background */
+    border: 1px solid #333;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #333;
+}
+
+#output {
+    height: 300px;
+    overflow-y: auto;
+    background: #0a1a2f; /* Dark blue marine */
+    color: #00ff00; /* Matrix green text */
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 5px;
+    border: 1px solid #333;
+    box-shadow: inset 0 0 10px #00ff00;
+}
+
+#input {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+#input input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background: #1c2833; /* Darker input background */
+    color: #f0f0f0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#input button {
+    padding: 10px 20px;
+    background: #ff6f61; /* Orange button */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    box-shadow: 0 0 10px #ff6f61;
+}
+
+#input button:hover {
+    background: #e74c3c; /* Darker orange on hover */
+    box-shadow: 0 0 15px #e74c3c;
+}
+
+/* Clients Section */
+#clients {
+    margin-top: 20px;
+    padding: 20px;
+    background: #1c2833; /* Darker background */
+    border: 1px solid #333;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #333;
+}
+
+#clients ul {
+    list-style: none;
+    padding: 0;
+}
+
+#clients ul li {
+    padding: 10px;
+    background: #0a1a2f; /* Dark blue marine */
+    border: 1px solid #333;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    color: #9b59b6; /* Violet text */
+    box-shadow: 0 0 10px #9b59b6;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background: #0a1a2f;
+    color: #9b59b6;
+    font-size: 0.9rem;
+    border-top: 1px solid #333;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SSE Server Dashboard</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>SSE Server Dashboard</h1>
+            <p class="subtitle">Real-time Command & Response Interface</p>
+        </header>
+
+        <!-- Terminal Section -->
+        <section id="terminal">
+            <h2>Terminal</h2>
+            <div id="output"></div>
+            <div id="input">
+                <input type="text" id="commandInput" placeholder="Enter command..." />
+                <button id="sendCommand">Send</button>
+            </div>
+        </section>
+
+        <!-- Clients Section -->
+        <section id="clients">
+            <h2>Connected Clients</h2>
+            <ul id="clientList">
+                <!-- Clients will be dynamically added here -->
+            </ul>
+        </section>
+    </div>
+
+    <footer>
+        <p>© 2025 SSE Server | By 4rt3f4kt</p>
+    </footer>
+
+    <script src="/static/js/app.js"></script>
+</body>
+</html>
