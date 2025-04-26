@@ -3,7 +3,7 @@
 This project showcases an advanced reverse shell built using native PowerShell and Server-Sent Events (SSE). It leverages a persistent HTTP connection to enable real-time communication between the server and clients, with a modern and interactive web-based interface for command execution and response visualization.
 
 This project was inspired by Poc released by TNCX-byte => https://github.com/TNCX-byte/PS_SSE_Shell
-So I wanted to test the protocol and the interaction of implementing c2-like functionnalities in SSE. The project is in development and will change in futur. I think it will be implemented in my C2 Project RatShell...
+So I wanted to test the implementaion of functionnalities in SSE. The project is in development and will change in futur. I think it will be implemented in my C2 Project RatShell...
 
 Unlike traditional reverse shells, this implementation focuses on flexibility, interactivity, and stealth by using:
 - Native PowerShell for the client
